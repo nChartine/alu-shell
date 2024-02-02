@@ -1,2 +1,2 @@
 #!/bin/bash
-alias count_home_dirs="find ~/ -type d | wc -l"
+echo $PATH | tr  -s ':' '\n' | wc -l

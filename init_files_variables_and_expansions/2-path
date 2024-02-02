@@ -1,2 +1,2 @@
-#!bin/bash
-alias my_custom_command = "/action"
+#!/bin/bash
+export PATH=$PATH:/action
